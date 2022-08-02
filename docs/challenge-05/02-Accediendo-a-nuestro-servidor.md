@@ -1,7 +1,7 @@
 
 # Accediendo a nuestro servidor
 
-Debido a que este es una servidor "pelado" (bare metal), lo único que viene instalado es el Sistema operativo (Linux Ubuntu 20.04 en nuestro caso). Debemos entonces proceder a configurar el acceso al mismo.
+Debido a que este es un servidor "pelado" (bare metal), lo único que viene instalado es el Sistema operativo (Linux Ubuntu 20.04 en nuestro caso). Debemos entonces proceder a configurar el acceso al mismo.
 
 Despues de contratar, ya disponemos de nuestro panel de control al cual podemos ingresar en [login.ionos.com](https://login.ionos.com/) usando nuestras credenciales ingresadas al contratar:
 
@@ -13,7 +13,8 @@ Después de algunas preguntas de seguridad (_recuerden guardar en lugar seguro l
 
 Elegiendo la opción indicada, pasamos al Panel de control del servidor.
 
-## El panel de control ##
+<br/>
+### El panel de control ###
 
 Este panel nos permite configurar muchos aspectos del funcionamiento de nuestr nuevo servidor:
 
@@ -41,6 +42,7 @@ Y luego de ingresar la contraseña ya estamos en nuestro servidor !
 
 **Felcitaciones !** Pero aún nos queda algun trabajo para dejarlo en condiciones.
 
+<br/>
 ### Crear un usuario adicional ###
 
 Es una (muy) mala práctica trabajar dentro del servidor como usuario `root`, por lo cual crearemos un segundo usuario con permisos de administracion. Lo llamaremos `ubuntu`. 
