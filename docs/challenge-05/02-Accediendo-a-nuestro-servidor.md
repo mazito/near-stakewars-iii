@@ -13,7 +13,7 @@ Después de algunas preguntas de seguridad (_recuerden guardar en lugar seguro l
 
 Elegiendo la opción indicada, pasamos al Panel de control del servidor.
 
-### El panel de control ###
+## El panel de control ##
 
 Este panel nos permite configurar muchos aspectos del funcionamiento de nuestr nuevo servidor:
 
