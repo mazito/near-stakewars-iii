@@ -14,6 +14,7 @@ Después de algunas preguntas de seguridad (_recuerden guardar en lugar seguro l
 Elegiendo la opción indicada, pasamos al Panel de control del servidor.
 
 <br/>
+
 ### El panel de control ###
 
 Este panel nos permite configurar muchos aspectos del funcionamiento de nuestr nuevo servidor:
@@ -43,6 +44,7 @@ Y luego de ingresar la contraseña ya estamos en nuestro servidor !
 **Felcitaciones !** Pero aún nos queda algun trabajo para dejarlo en condiciones.
 
 <br/>
+
 ### Crear un usuario adicional ###
 
 Es una (muy) mala práctica trabajar dentro del servidor como usuario `root`, por lo cual crearemos un segundo usuario con permisos de administracion. Lo llamaremos `ubuntu`. 
