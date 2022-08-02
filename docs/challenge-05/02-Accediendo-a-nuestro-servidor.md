@@ -41,7 +41,7 @@ Y luego de ingresar la contraseña ya estamos en nuestro servidor !
 
 ![](images/Captura%20de%20pantalla%20de%202022-08-01%2023-08-00.png)
 
-**Felcitaciones !** Pero aún nos queda algun trabajo para dejarlo en condiciones.
+:clap: **Felicitaciones !** Pero aún nos queda algun trabajo para dejarlo en condiciones.
 
 <br/>
 
@@ -80,6 +80,8 @@ Ya estamos en nuestro servidor y listos para comenzar a armar nuestro nodo valid
 ![](images/Captura%20de%20pantalla%20de%202022-08-01%2023-22-57.png)
 
 > Para terminar de configurar correctamente nuestro servidor, deberíamos implementar el acceso via clave pública (ssh). No lo explicaremos aquí, pero este es un buen tutorial: [How To Set up SSH Keys on a Linux / Unix System](https://www.cyberciti.biz/faq/how-to-set-up-ssh-keys-on-linux-unix/)
+
+<br/>
 
 ### Pasos finales ###
 
