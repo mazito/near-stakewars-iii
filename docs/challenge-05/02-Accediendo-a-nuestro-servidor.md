@@ -1,7 +1,7 @@
 
-# Accediendo a nuestro servidor
+# Accediendo a nuestro servidor dedicado
 
-Debido a que este es un servidor "pelado" (bare metal), lo único que viene instalado es el Sistema operativo (Linux Ubuntu 20.04 en nuestro caso). Debemos entonces proceder a configurar el acceso al mismo.
+Debido a que este es un servidor "limpio" (bare metal), lo único que viene instalado es el Sistema operativo (Linux Ubuntu 20.04 en nuestro caso). Debemos entonces proceder a configurar el acceso al mismo.
 
 Despues de contratar, ya disponemos de nuestro panel de control al cual podemos ingresar en [login.ionos.com](https://login.ionos.com/) usando nuestras credenciales ingresadas al contratar:
 
@@ -72,7 +72,7 @@ $ usermod -aG sudo ubuntu
 
 **3.** Listo ! Salimos del servidor haciendo `exit` en la consola, y ya en la consola de nuestra PC podemos ingresar con nuestro nuevo usuario y contraseña:
 ~~~~
-$ ssh ubuntu@74.208.151.236
+$ ssh ubuntu@74.123.123.123
 ~~~~
 
 Ya estamos en nuestro servidor y listos para comenzar a armar nuestro nodo validador.
@@ -85,6 +85,8 @@ Ya estamos en nuestro servidor y listos para comenzar a armar nuestro nodo valid
 
 ### Pasos finales ###
 
+**1. Habilitar puertos 3030 y 20745**
+
 Finalmente debemos habilitar algunos puertos que son usados por el nodo validador, ya que el servidor viene inicialmente solo con los puertos `22 (ssh)`, `80 (hhtp)` y `443 (https)` habilitados.
 
 Para ello en el Panel de control debemos abrir la solapa `Network` luego `Firewall Policies` y finalmente elegir nuestro servidor:
@@ -94,3 +96,18 @@ Para ello en el Panel de control debemos abrir la solapa `Network` luego `Firewa
 Esto nos permite agregar los puertos `3030 (RPC)` y `20745 (peers)`que son usados por el nodo. Deberán quedar como se muestra más abajo:
 
 ![](images/Screenshot%20of%20Cloud%20Panel-ports.jpg)
+
+**2. Cambia el nombre de tus servidor**
+
+Resulta práctico asignar un nombre a tu servidor. De este modo si tienes más de un nodo corriendo te indicará siempre dentro de que nodo estás trabajando. El nombre elegido por mi para este nodo es `itdcn2`. 
+
+Dentro de la consola de tu servidor haz:
+~~~
+$ sudo hostnamectl set-hostname idtcn2
+~~~
+
+Luego de ello, debes salir del servidor y volver a ingresar. Veamos como se verá ahora la consola del servidor:
+
+![](images/Selecci%C3%B3n_001.png)
+
+> :clap: **¡Muy bien!** Ya tienes tu servidor dedicado en marcha y estás listo para la próxima etapa: [Instalar las herramientas y armar nuestro nodo validador](./03-Instalar-herramientas-y-nodo.md)
