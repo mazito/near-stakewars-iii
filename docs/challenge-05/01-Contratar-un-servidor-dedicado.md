@@ -58,4 +58,6 @@ El costo total a fin de mes debería ser aprox. de **70 U$S/mes**, costo muy raz
 - Data center location: United States
 - $0.0903 /hour max. $65/month
 
-Contratado nuestro servidor pasamos a la siguiente etapa: [Como accederlo desde nuestra PC de escritorio](./02-Accediendo-a-nuestro-servidor.md).
+--- 
+
+Contratado nuestro servidor pasamos a la siguiente etapa [Accediendo a nuestro servidor](./02-Accediendo-a-nuestro-servidor.md).

@@ -19,5 +19,9 @@ npm -v
 sudo npm install -g near-cli
 
 # Add "shardnet" to ENV vars when starting console
+# so we dont need to do export every time we login
 export NEAR_ENV=shardnet
 echo 'export NEAR_ENV=shardnet' >> ~/.bashrc
+
+# Source the environment so we activate the new ENV vars
+. ~/.bashrc

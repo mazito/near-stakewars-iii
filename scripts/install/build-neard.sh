@@ -1,8 +1,8 @@
 #!/bin/bash
 # Build it !
-export CURRENT=c1b047b8187accbf6bd16539feb7bb60185bdc38
+export CURRENT=68bfa84ed1455f891032434d37ccad696e91e4f5
 
-cd ~/.nearcore
+cd ~/nearcore
 
 # Checkout to the commit needed, inidcated in
 # [stakewars-iii/commit.md](https://github.com/near/stakewars-iii/blob/main/commit.md)

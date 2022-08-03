@@ -110,4 +110,8 @@ Luego de ello, debes salir del servidor y volver a ingresar. Veamos como se ver�
 
 ![](images/Selecci%C3%B3n_001.png)
 
-> :clap: **¡Muy bien!** Ya tienes tu servidor dedicado en marcha y estás listo para la próxima etapa: [Instalar las herramientas y armar nuestro nodo validador](./03-Instalar-herramientas-y-nodo.md)
+> :clap: **¡Muy bien!** Ya tienes tu servidor dedicado en marcha.
+
+---
+
+Ya estás listo para la próxima etapa [Instalar las herramientas y armar nuestro nodo validador](./03-Instalar-herramientas-y-nodo.md)
