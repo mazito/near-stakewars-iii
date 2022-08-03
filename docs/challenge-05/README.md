@@ -1,8 +1,8 @@
 
-# NEAR StakeWars III
+# NEAR StakeWars III - Challenge 05
 
 - Challenge: **05**
-- Autor: Mario A .zito (mazito.shardnet.near) 
+- Autor: Mario A. Zito (mazito.shardnet.near) 
 - Fecha: 2-Ago-2022
 - Nodos: `idtcn2` (nuevo), `idtcn1` y `maz0`.
 
@@ -47,9 +47,9 @@ deberán esperar un poco más de tiempo hasta que esté disponible. No se preocu
 
 ### Instalar herramientas y contruir el nodo
 
-Primero debo indicar que realizaré las tareas indicadas en las challenges en un orden un poco diferente, producto de que resulta más práctico realizar primero la instalación de todo el software y recién después proceder con los aspectos relacionados con el wallet y el pasar a convertirse en validador.
+Primero debo indicar que realizaré las tareas indicadas en las challenges en un orden un poco diferente, producto de que resulta más práctico realizar primero la instalación de todo el software y recién después proceder con los aspectos relacionados con el pasar a convertirse en validador.
 
-Para esta etapa, armé un conjunto de scripts que simplifican la instalación del nodo, sobre todo si es un proceso que debemos repetir más de una vez, ya que jecutar cada comando en forma individual resulta engorroso.
+Para esta etapa, armé un conjunto de scripts que simplifican la instalación del nodo, sobre todo si es un proceso que debemos repetir más de una vez, ya que ejecutar cada comando en forma individual resulta engorroso.
 
 Los scripts en cuestión son:
 
@@ -61,7 +61,7 @@ Los scripts en cuestión son:
 
 - [scripts/install/source-code.sh](../../scripts/install/source-code.sh): instala el codigo fuente de `nearcore`.
 
-- [scripts/build-neard.sh](../../scripts/install/build-nerad.sh): compila el codigo usando el último commit recomendado.
+- [scripts/install/build-neard.sh](../../scripts/install/build-neard.sh): compila el codigo usando el último commit recomendado.
 
 - [scripts/install/initialize-workdir.sh](../../scripts/install/initialize-workdir.sh): inicializa el nodo y lo deja listo para comenzar a sincronizar con la red.
 
@@ -72,5 +72,9 @@ Pasamos entonces a [Instalar herramientas y nodo](./03-Instalar-herramientas-y-n
 Habiendo completado la instalación y compilación del nodo, debemos inicializar su directorios de trabajo y sincronizarlo con el resto de la red.
 
 Vayamos entonces a [Inicializar y sincronizar el nodo](./04-Inicializar-y-correr-el-nodo.md)
+
+### Habilitar el nodo como un servicio
+
+Por varias razones que explicamos es necesario [Configurar el nodo como un servicio](./05-Configurar-como-servicio.md).
 
 
