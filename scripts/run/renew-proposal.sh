@@ -1,10 +1,9 @@
-~~~
 #!/bin/sh
 # Ping call to renew Proposal added to crontab
 
 export NEAR_ENV=shardnet
 export LOGS=/home/ubuntu/logs
-export POOLID=idtcn1
+export POOLID=idtcn2
 export ACCOUNTID=mazito.shardnet.near
 
 echo "---" >> $LOGS/proposals.log
@@ -15,4 +14,3 @@ near call $POOLID.factory.shardnet.near ping '{}' --accountId $ACCOUNTID --gas=3
 near proposals | grep $POOLID >> $LOGS/proposals.log
 near validators current | grep $POOLID >> $LOGS/proposals.log
 near validators next | grep $POOLID >> $LOGS/proposals.log
-~~~
