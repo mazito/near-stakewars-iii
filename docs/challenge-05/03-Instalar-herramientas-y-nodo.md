@@ -1,5 +1,5 @@
 
-### 1. Actualizar servidor e instalar herramientas necesaris
+### 1. Actualizar servidor e instalar herramientas
 
 Primero debo indicar que realizaré las tareas indicadas en las challenges en un orden un poco diferente, producto de que resulta más práctico realizar primero la instalación de todo el software y recién después proceder con los aspectos relacionados con el pasar a convertirse en validador.
 

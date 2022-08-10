@@ -43,7 +43,7 @@ crontab -e
 
 **3.** Aquí podemos ver nuestras últimas propuestas (exitosas):
 
-![](./images/Selecci%C3%B3n_086.png)
+![](./Selecci%C3%B3n_086.png)
 
-![](./images/Selecci%C3%B3n_087.png)
+![](./Selecci%C3%B3n_087.png)
 
