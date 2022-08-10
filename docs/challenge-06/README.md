@@ -41,7 +41,11 @@ crontab -e
 #
 ~~~
 
-**3.** Aquí podemos ver nuestras últimas propuestas (exitosas):
+**3.** Aquí podemos ver el log de nuestras últimas propuestas (exitosas):
+
+![](./Selecci%C3%B3n_084.png)
+
+**4.** Y verificar en el explorador las sucesivas transacciones:
 
 ![](./Selecci%C3%B3n_086.png)
 
