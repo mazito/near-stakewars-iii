@@ -1,6 +1,12 @@
 
 # Contratando un servidor dedicado en IONOS
 
+Inicialmente comencé con dos servidores del proveedor Contabo (contabo.com). La experiencia no ha sido buena del todo, pues que el hecho de ser servidores virtuales compartidos (VPS) tiene algunos efectos en momentos de mucho tráfico de red, y he notado que de repente se pierden "chunks". 
+
+Todavía no esta clara la razón, y es algo que nos ha pasado a muchos que estamos participando. 
+
+Pero ahora decidí probar con otro proveedor (IONOS) para evaluar alternativas a las ya tradicionales (AWS, GC, Azure, Hetzner). 
+
 ### Porqué un servidor dedicado (bare metal)
 
 Como comenté antes para entender mejor como se comporta un nodo validador en NEAR, y sus reales requerimientos de hardware, decidí probar ahora con un servidor dedicado. 

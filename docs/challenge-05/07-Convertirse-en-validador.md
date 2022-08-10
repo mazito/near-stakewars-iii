@@ -1,3 +1,6 @@
+# Convertirse en validador
+
+Ahora sigue una serie de pasos que debemos dar con cuidado, ya que de su éxito depende que podamos ingresar al conjunto de validación.
 
 **1. Login con la cuenta que sera la dueña del `staking pool`**
 
@@ -34,7 +37,6 @@ Finalmente copiamos el nombre de nuestra cuenta en la consola de nuestro servido
 
 Y ya estamos logeados con nuestra cuenta. 
 
-
 **2. Verificar la cuenta**
 
 Veamos si en la carpeta `~/.near-credentiales/shardnet` aparece el archivo que contiene nuestras credenciales:
@@ -49,9 +51,9 @@ ls ~/.near-credentials/shardnet/
 
 **3. Crear claves del validador**
 
-> :hand: En este momento, necesitamos definir un nombre para nuestro `staking pool`. Este nombre es el POOLID y lo usaremos mucho de aquí en adelante. En mi caso, el nombre que he asignado es `idtcn2`. Por supuesto ustded puede definir el nombre que consideren más adecuado
+> :hand: En este momento, necesitamos definir un nombre para nuestro `staking pool`. Este nombre es el POOLID y lo usaremos mucho de aquí en adelante. En mi caso, el nombre que he asignado es `idtcn2`. Por supuesto pueden definir el nombre que consideren más adecuado
 
-Ahora **vamos a generar una nueva clave para el nodo validador, ya que este pool todavia no existe**. Esta clave sera la famosa `validator_key` que debe tener todo nodo validador para poder ingresar al conjunto de validadores.
+Ahora **vamos a generar una nueva clave para el nodo validador, ya que este pool todavía no existe**. Esta clave sera la famosa `validator_key` que debe tener todo nodo validador para poder ingresar al conjunto de validadores.
 
 Necesitamos el nombre del pool (POOLID) que en nuestro caso será `idtcn2`:
 ~~~
@@ -67,7 +69,6 @@ Y veamos su contenido:
 ![](images/Selecci%C3%B3n_059.png)
 
 Como podemos ver, se ha creado un archivo `idtcn2.json` (el nombre de nuestro pool) y que contiene las claves del mismo.
-
 
 **4. Copiar a ~/.near y retocar**
 
@@ -108,6 +109,6 @@ Y veamos el log ahora:
 
 :clap: ¡Muy bien! Ya está nuestro nodo corriendo nuevamente.
 
---- 
+---
 
 Pasamos ahora a [Crear el staking pool para comenzar a validar](./08-Crear-pool-y-validar.md).

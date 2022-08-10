@@ -3,8 +3,8 @@
 
 - Challenge: **05**
 - Autor: Mario A. Zito (mazito.shardnet.near) 
-- Fecha: 2-Ago-2022
-- Nodos: `idtcn2` (nuevo), `idtcn1` y `maz0`.
+- Fecha: 10-Ago-2022
+- Nodos: `idtcn2` (corriendo), `idtcn1` (suspendido) y `maz0` (corriendo).
 
 ### Preliminares
 
@@ -27,54 +27,42 @@ Si bien no es imprescindible tener experiencia usando o administrando equipos ba
 
 :warning: Esto es importante para no sobrecargar el [canal de soporte de las stake-wars](https://discord.com/channels/490367152054992913/999047336229617704) con preguntas MUY básicas (de las cuales he visto un montón) como por ejemplo _"¿Y cómo borro el directorio `data`?"_ **Se supone que si quieres administrar un nodo validador en NEAR, deberías ser capaz de buscar (googlear) y responder estas preguntas por tí mismo.**
 
-### Contratar un servidor dedicado
+Aquí vamos entonces ! 
 
-Inicialmente comencé con dos servidores del proveedor Contabo (contabo.com). La experiencia no ha sido mala, pero supongo que el hecho de ser servidores virtuales compartidos (VPS) pueden tener algun efecto en momentos de mucho tráfico de red, y he notado que de repente se pierden "chunks". Todavía no esta clara la razón, y es algo que nos ha pasado a muchos que estamos participando. 
+### Tareas 
 
-Pero ahora decidí probar con otro proveedor (IONOS) para evaluar alternativas a las ya tradicionales (AWS, GC, Azure, Hetzner). 
+- [Contratando un servidor dedicado](./01-Contratar-un-servidor-dedicado.md)
 
-Aquí vamos entonces con la primer parte de este Challenge-005 [Contratando un servidor dedicado](./01-Contratar-un-servidor-dedicado.md)
+- [Acceder a nuestro servidor dedicado](./02-Accediendo-a-nuestro-servidor.md)
 
-### Accediendo a nuestro nuevo servidor
+- [Instalar herramientas y nodo](./03-Instalar-herramientas-y-nodo.md)
 
-Ya tenemos nuestro servidor contratado. Ahora deberemos esperar unos minutos hasta que el servidor este disponible. Pero no demasiado, al menos en mi caso el proceso de la orden fue muy rápido (unos quince minutos aprox.)
+- [Inicializar y sincronizar el nodo](./04-Inicializar-y-correr-el-nodo.md)
 
-Pasado ese tiempo, ya podemos comenzar y [Acceder a nuestro servidor dedicado](./02-Accediendo-a-nuestro-servidor.md)
+- [Configurar el nodo como un servicio](./05-Configurar-como-servicio.md).
 
-> :hand: Si al ingresar al panel de control, notan que el status del servidor no está en verde, tal como se muestra aquí:
-![](images/Selecci%C3%B3n_010.png)
-deberán esperar un poco más de tiempo hasta que esté disponible. No se preocupen, en el mismo panel les irá indicando el % de avance.
+- [Crear billetera en Shardnet](./06-Crear-billetera-en-shardnet.md)
 
-### Instalar herramientas y contruir el nodo
+- [Convertirse en validador](./07-Convertirse-en-validador.md)
 
-Primero debo indicar que realizaré las tareas indicadas en las challenges en un orden un poco diferente, producto de que resulta más práctico realizar primero la instalación de todo el software y recién después proceder con los aspectos relacionados con el pasar a convertirse en validador.
+- [Crear 'pool' y comenzar a validar](./08-Crear-pool-y-validar.md)
 
-Para esta etapa, armé un conjunto de scripts que simplifican la instalación del nodo, sobre todo si es un proceso que debemos repetir más de una vez, ya que ejecutar cada comando en forma individual resulta engorroso.
+- [Renovar la propuesta](./09-Renovar-la%20propuesta-cada-hora.md) 
 
-Los scripts en cuestión son:
+- [Logs y monitoreo](./10-Logs-y-monitoreo.md)
 
-- [scripts/install/update-and-needed.sh](../../scripts/install/update-and-needed.sh): actualiza el servidor e instala varias herramientas necesarias.
+### Conclusiones
 
-- [scripts/install/node-and-near-cli.sh](../../scripts/install/node-and-near-cli.sh): instala Nodejs y el cliente de NEAR.
+Hemos completado el **Challenge 05** hace ya algunos días y nuestro nodo está funcionando correctamente. Aquí damos nuestras conclusiones después de haber estado operando el nodo durante unos diez días:
 
-- [scripts/install/build-tools.sh](../../scripts/install/build-tools.sh): instala las herramientas de desarrollo.
+- El paso a un servidor dedicado en IONOS ha sido un cambio sustancial, y hemos mantenido un uptime > 95 % desde que contratamos este servidor.
+- El ancho de banda disponible es un factor crítico. Nuestro servidor dispone de una conexión de 1 Gbit/s exclusiva del mismo, sin límites de tráfico de entrada/salida. 
+- En nuestra opinión el uso de una VPS no presenta ventajas frente a las opciones de servidores dedicados ("bare metal") existentes. En momentos de alto tráfico, una VPS que comparte recursos con otras VPS alojadas en el mismo hardware, puede perder bloques por congestión de tráfico de red en el alojamiento.
+- Tanto IONOS como Hetzner demuestran funcionar en forma consistente, y ofrecen servidores dedicados de alta performance y costo razonable (entre 50 y 120 u$s/mes).  
 
-- [scripts/install/source-code.sh](../../scripts/install/source-code.sh): instala el codigo fuente de `nearcore`.
+Adjunto captura del [Scoreboard](https://openshards.io/shardnet-uptime-scoreboard/)
 
-- [scripts/install/build-neard.sh](../../scripts/install/build-neard.sh): compila el codigo usando el último commit recomendado.
+![](./images/Selecci%C3%B3n_085.png)
 
-- [scripts/install/initialize-workdir.sh](../../scripts/install/initialize-workdir.sh): inicializa el nodo y lo deja listo para comenzar a sincronizar con la red.
-
-Pasamos entonces a [Instalar herramientas y nodo](./03-Instalar-herramientas-y-nodo.md)
-
-### Inicializar y sincronizar el nodo
-
-Habiendo completado la instalación y compilación del nodo, debemos inicializar su directorios de trabajo y sincronizarlo con el resto de la red.
-
-Vayamos entonces a [Inicializar y sincronizar el nodo](./04-Inicializar-y-correr-el-nodo.md)
-
-### Habilitar el nodo como un servicio
-
-Por varias razones que explicamos es necesario [Configurar el nodo como un servicio](./05-Configurar-como-servicio.md).
-
+Donde vemos que ha estado funcionando 18 epochs sin perder ninguna, y con un uptime (al momento) del 96.46%.
 

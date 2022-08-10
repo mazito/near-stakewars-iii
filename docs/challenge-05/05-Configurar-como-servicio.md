@@ -2,7 +2,7 @@
 
 Por ahora, nuestro nodo fue iniciado en la consola y quedo corriendo allí mientras termina de sincronizar. 
 
-Pero esto no es práctico ya que si debemos reiniciar (reboot) el servidro es necesario inixar el nodo manualmente y otras varias desventajas.
+Pero esto no es práctico ya que si debemos reiniciar (reboot) el servidor es necesario iniciar el nodo manualmente y otras varias desventajas.
 
 Para ello, procederemos a instalarlo como un servicio (daemon) controlado por `systemd` que es el sistema de administración de servicios de Linux.
 
@@ -44,7 +44,7 @@ Guardamos el archivo y verificamos:
 
 Este es un error muy común de mucha gente que inicia el nodo como servicio mientras todavía esta corriendo en la terminal y esto genera un error al tratar de abrir la base de datos.
 
-Por lo tanto: **MUY IMPORTANTE: parar primero el nodo si todavía está corriendo en la terminal**
+Por lo tanto es **MUY IMPORTANTE parar primero el nodo si todavía está corriendo en la terminal**
 
 ![](images/Selecci%C3%B3n_039.png)
 

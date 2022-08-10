@@ -1,3 +1,4 @@
+# Crear 'pool' y comenzar a validar
 
 ### 1. Crear el staking pool (create_staking_pool)
 

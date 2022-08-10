@@ -1,7 +1,9 @@
 
 # Inicializar y sincronizar el nodo
 
-Ya estamos listos para comenzar a corre nuetsro nodo, pero antes debemos inicializar nuestro directorio de trabajo.
+Habiendo completado la instalación y compilación del nodo, debemos inicializar su directorios de trabajo y sincronizarlo con el resto de la red.
+
+Ya estamos listos para comenzar a correr nuestro nodo, pero antes debemos inicializar nuestro directorio de trabajo.
 
 ### Inicializar directorio de trabajo 
 
@@ -24,7 +26,7 @@ Donde:
 
 - **`config.json`**: parámetros de configuración que responden a cómo funcionará el nodo. El `config.json` contiene la información necesaria para que un nodo se ejecute en la red, cómo comunicarse con los pares y cómo llegar a un consenso. Aunque algunas opciones son configurables. En general, los validadores han optado por utilizar el `config.json` predeterminado proporcionado.
 
-- **`genesis.json`**: un archivo con todos los datos con los que comenzó la red en genesis. Este contiene cuentas iniciales, contratos, claves de acceso y otros registros que representan el estado inicial de la cadena de bloques. El archivo `genesis.json` es una instantánea del estado de la red en un momento dado. En cuentas de contactos, saldos, validadores activos, y demás información de la red.
+- **`genesis.json`**: un archivo con todos los datos con los que comenzó la red en génesis. Este contiene cuentas iniciales, contratos, claves de acceso y otros registros que representan el estado inicial de la cadena de bloques. El archivo `genesis.json` es una instantánea del estado de la red en un momento dado. En cuentas de contactos, saldos, validadores activos, y demás información de la red.
 
 - **`node_key.json`**: un archivo que contiene una clave pública y privada para el nodo. También incluye un parámetro opcional `account_id` que se requiere para ejecutar un nodo de validación (no cubierto en este documento).
 
@@ -72,3 +74,6 @@ Ahora debemos dejarlo sincronizando hasta que termine de bajar todos los bloques
 
 ![](images/Selecci%C3%B3n_032.png)
 
+---
+
+Ahora podemos pasar a [Configurar el nodo como un servicio](./05-Configurar-como-servicio.md)

@@ -1,6 +1,26 @@
 
 ### 1. Actualizar servidor e instalar herramientas necesaris
 
+Primero debo indicar que realizaré las tareas indicadas en las challenges en un orden un poco diferente, producto de que resulta más práctico realizar primero la instalación de todo el software y recién después proceder con los aspectos relacionados con el pasar a convertirse en validador.
+
+Para esta etapa, armé un conjunto de scripts que simplifican la instalación del nodo, sobre todo si es un proceso que debemos repetir más de una vez, ya que ejecutar cada comando en forma individual resulta engorroso.
+
+Los scripts en cuestión son:
+
+- [scripts/install/update-and-needed.sh](../../scripts/install/update-and-needed.sh): actualiza el servidor e instala varias herramientas necesarias.
+
+- [scripts/install/node-and-near-cli.sh](../../scripts/install/node-and-near-cli.sh): instala Nodejs y el cliente de NEAR.
+
+- [scripts/install/build-tools.sh](../../scripts/install/build-tools.sh): instala las herramientas de desarrollo.
+
+- [scripts/install/source-code.sh](../../scripts/install/source-code.sh): instala el codigo fuente de `nearcore`.
+
+- [scripts/install/build-neard.sh](../../scripts/install/build-neard.sh): compila el codigo usando el último commit recomendado.
+
+- [scripts/install/initialize-workdir.sh](../../scripts/install/initialize-workdir.sh): inicializa el nodo y lo deja listo para comenzar a sincronizar con la red.
+
+### Instalar herramientas mínimas necesarias
+
 El script `update-and-needed.sh` actualiza todas las bibliotecas del servidor e instala varias herramientas necesarias:
 ~~~
 #!/bin/bash
@@ -87,20 +107,23 @@ Y verificamos la instalación:
 
 **Probamos algunos comandos útiles**
 
-**>** Ver las propuestas presentadas para ingresar al conjunto de validadores,
+**1.** Ver las propuestas presentadas para ingresar al conjunto de validadores,
+
 ~~~
 near proposals
 ~~~
 ![](images/Selecci%C3%B3n_035.png)
 
-**>** Ver los nodos que entrarán en la próxima ronda (epoch) de validación:
+**2.** Ver los nodos que entrarán en la próxima ronda (epoch) de validación:
+
 ~~~
 near validators next
 ~~~
 
 ![](images/Selecci%C3%B3n_036.png)
 
-**>** Ver los nodos que estan actualmente validando:
+**3.** Ver los nodos que están actualmente validando:
+
 ~~~
 near validators current
 ~~~
