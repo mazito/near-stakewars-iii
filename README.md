@@ -17,21 +17,21 @@ Nodes
 - Due date: 08-11-2022
 
 **Challenge-05**: Setup a validator node on one of the most popular cloud providers.
-- Docs: [Challenge 05: Proof of completion](./docs/challenge-05/index.md)
+- Docs: [Challenge 05: Proof of completion](./docs/challenge-05/README.md)
 - Status: Completed
-- Submitted: 
+- Submitted: No
 - Due date: 08-11-2022
 
 **Challenge-06**: Cron task for ping.
-- Docs: [Challenge 06: Proof of completion](./docs/challenge-06/index.md)
+- Docs: [Challenge 06: Proof of completion](./docs/challenge-06/README.md)
 - Status: Completed
-- Submitted: 
+- Submitted: No
 - Due date: 08-11-2022
 
 **Challenge-08**: Split revenue for staking rewards.
-- Docs: [Challenge 08: Proof of completion](./docs/challenge-08/index.md)
-- Status: Completed
-- Submitted: Yes
+- Docs: [Challenge 08: Proof of completion](./docs/challenge-08/README.md)
+- Status: WIP
+- Submitted: No
 - Due date: 08-11-2022
 
 **Challenge-09**: Challenge for shardnet uptime >70% && open the debug port
