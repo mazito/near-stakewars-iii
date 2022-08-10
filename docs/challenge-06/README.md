@@ -8,7 +8,7 @@ En nuestro caso, renovaremos nuestra propuesta cada 1 hora.
 
 > De acuerdo al tiempo que dure una epoch se debe ajustar la frecuencia con que renovamos nuestra propuesta
 
-**1**. Crearemos un script `renew_proposal.sh` que se ocupe de la renovación y además registre el resultado en un log `proposals.log`
+**1**. Crearemos un script `renew-proposal.sh` que se ocupe de la renovación y además registre el resultado en un log `proposals.log`
 
 ~~~
 #!/bin/sh
