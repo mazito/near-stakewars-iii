@@ -2,7 +2,7 @@
 export NEAR_ENV=shardnet
 export LOGS=/home/ubuntu/logs/node-status.log
 export POOLID=idtcn2
-export ACCOUNTID=idtcn0
+export ACCOUNTID=mazito.shardnet.near
 
 echo "---" >> $LOGS
 date
