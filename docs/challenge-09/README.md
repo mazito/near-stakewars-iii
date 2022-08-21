@@ -17,7 +17,7 @@
 
 ## Accessing port 3030
 
-**IP**: `74.208.151.236`
+**IP**: [74.208.151.236](http://74.208.151.236:3030/status)
 
 Running from my desktop accesing remote `idtcn2` node:
 ~~~
