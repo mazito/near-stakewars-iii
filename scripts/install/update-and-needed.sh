@@ -13,8 +13,9 @@ sudo apt install ne -y
 # Network monitor
 sudo apt install nload -y
 
-# Process viewer (similar to top)
+# Process vieweres (similar to top)
 sudo apt install htop -y
+sudo snap install bpytop -y
 
 # Git 
 sudo apt install git -y
