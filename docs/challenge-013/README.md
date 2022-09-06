@@ -1,16 +1,18 @@
-# Description
+# Challenge-013
+
+#### Description
 
 In this challenge, participants will learn how to update their node, migrate keys, and set up a BACKUP node.
 
 Please note that this challenge includes multiple parts:
 
-    Best Practices: is an informational section that outlines the optimal way of updating a validator node (no points)
-    Task: in this section, participants will learn how to migrate validator keys. Only this part of the challenge will be evaluated. (25 UNP & 10 DNP)
+- Best Practices: is an informational section that outlines the optimal way of updating a validator node (no points)
+- Task: in this section, participants will learn how to migrate validator keys. Only this part of the challenge will be evaluated. (25 UNP & 10 DNP)
 
-# Acceptance Criteria
+#### Acceptance Criteria
 
-    Run a backup node
-    Successfully migrate validator keys from the MAIN node to the BACKUP node
+- Run a backup node
+- Successfully migrate validator keys from the MAIN node to the BACKUP node
 
 # Steps taken
 
