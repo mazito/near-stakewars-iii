@@ -57,4 +57,7 @@ https://explorer.shardnet.near.org/transactions/64eLzuaWe4VQaEJTEhrhCHZiyTAVjbyh
 ''
 ~~~
 
+**Transaction Url**: [](https://explorer.shardnet.near.org/transactions/64eLzuaWe4VQaEJTEhrhCHZiyTAVjbyhT6kXxAT3aK7P
+)
+
 ![](./Selecci%C3%B3n_003.png)
