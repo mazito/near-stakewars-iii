@@ -57,13 +57,13 @@ Nodes
 - Docs: [Challenge 13: Proof of completion](./docs/challenge-13/README.md)
 - Status: `Completed`
 - Submitted: `Yes`
-- Date: 2022-09-07
+- Date: 2022-08-27
 
-**Challenge-14**: 
-- Docs: [Challenge 0: Proof of completion](./docs/challenge-0/index.md)
-- Status: ``
-- Submitted: ``
-- Date: 2022-09-07
+**Challenge-14**: Create, run, and modify the auto-backup node script.
+- Docs: [Challenge 14: Proof of completion](./docs/challenge-14/README.md)
+- Status: `Completed`
+- Submitted: `Yes`
+- Date: 2022-09-04
 
 **Challenge-15**: 
 - Docs: [Challenge 0: Proof of completion](./docs/challenge-0/index.md)

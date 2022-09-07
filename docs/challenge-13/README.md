@@ -73,6 +73,10 @@ sudo systemctl status neard
 
 ![](./images/Selecci%C3%B3n_009.png)
 
+### 3. Changed keys
+
+![](./images/Selecci%C3%B3n_017.png)
+
 
 ## Start failover node as validator (idtcn3)
 
