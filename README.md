@@ -65,31 +65,30 @@ Nodes
 - Submitted: `Yes`
 - Date: 2022-09-04
 
----
-
-## Drafts 
-
-**Challenge-15**: 
-- Docs: [Challenge 0: Proof of completion](./docs/challenge-0/index.md)
-- Status: ``
-- Submitted: ``
-- Date: 2022-09-07
-
-**Challenge-16**: 
-- Docs: [Challenge 0: Proof of completion](./docs/challenge-0/index.md)
-- Status: ``
-- Submitted: ``
-- Date: 2022-09-07
-
-**Challenge-17**: 
+**Challenge-15**: Setup a Kuutamo High Availability (HA) NEAR Validator.
 - Status: `Not done`
 - Submitted: `No`
 
-**Challenge-19**: 
-- Docs: [Challenge 0: Proof of completion](./docs/challenge-0/index.md)
-- Status: ``
+**Challenge-16**: Connect a validator for sending notifications through Notifi.
+- Docs: [Challenge 16: Proof of completion](./docs/challenge-16/README.md)
+- Status: `Completed`
+- Submitted: `Yes`
+- Date: 2022-09-07
+
+**Challenge-17**: Testnet Validator on Decentralized Cloud Service
+- Status: `Not done`
+- Submitted: `No`
+
+**Challenge-19**: Create Grafana dashboards
+- Docs: [Challenge 19: Proof of completion](./docs/challenge-19/README.md)
+- Status: `Completed`
 - Submitted: ``
 - Date: 2022-09-07
+
+## Drafts
+---
+
+
 
 **Challenge-20**: 
 - Docs: [Challenge 0: Proof of completion](./docs/challenge-0/index.md)
