@@ -93,7 +93,6 @@ Then will upload it to the Wasabi bucket:
 ![](./Selecci%C3%B3n_002.png)
 ![](./Selecci%C3%B3n_003.png)
 ![](./Selecci%C3%B3n_004.png)
-![](./Selecci%C3%B3n_006.png)
 
 ### 5. Crontab for running at end of day
 

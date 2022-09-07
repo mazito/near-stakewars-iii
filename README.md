@@ -65,6 +65,10 @@ Nodes
 - Submitted: `Yes`
 - Date: 2022-09-04
 
+---
+
+## Drafts 
+
 **Challenge-15**: 
 - Docs: [Challenge 0: Proof of completion](./docs/challenge-0/index.md)
 - Status: ``
