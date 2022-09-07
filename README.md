@@ -36,7 +36,7 @@ Nodes
 **Challenge-08**: Split revenue for staking rewards.
 - Docs: [Challenge 08: Proof of completion](./docs/challenge-08/README.md)
 - Status: `Completed`
-- Submitted: No
+- Submitted: `Yes`
 - Date: 2022-09-04
 
 **Challenge-09**: Challenge for shardnet uptime > 70% && open the debug port
@@ -82,10 +82,8 @@ Nodes
 - Date: 2022-09-07
 
 **Challenge-17**: 
-- Docs: [Challenge 0: Proof of completion](./docs/challenge-0/index.md)
-- Status: ``
-- Submitted: ``
-- Date: 2022-09-07
+- Status: `Not done`
+- Submitted: `No`
 
 **Challenge-19**: 
 - Docs: [Challenge 0: Proof of completion](./docs/challenge-0/index.md)
