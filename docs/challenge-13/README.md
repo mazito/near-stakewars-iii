@@ -76,7 +76,7 @@ sudo systemctl status neard
 
 ## Start failover node as validator (idtcn3)
 
-### 1. Start validator script `run/start-as-validator.sh`**
+### 1. Start validator script `run/start-as-validator.sh`
 
 ~~~
 #!/bin/bash
@@ -113,10 +113,10 @@ sudo journalctl -n 50 -f -u  neard | ccze -A | grep INFO
 
 ### 3. Copy idtcn2 validator and node keys
 
-![](./images/Selecci%C3%B3n_014.png)
+![](./images/Selecci%C3%B3n_014.png) 
 
 ![](./images/Selecci%C3%B3n_016.png)
 
-### 4. Restarts node as validator 
+### 4. Starts node as validator 
 
 ![](./images/Selecci%C3%B3n_015.png)
