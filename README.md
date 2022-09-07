@@ -54,7 +54,7 @@ Nodes
 - Submitted: `No`
 
 **Challenge-13**:  Update their node, migrate keys, and set up a BACKUP node.
-- Docs: [Challenge 13: Proof of completion](./docs/challenge-11/README.md)
+- Docs: [Challenge 13: Proof of completion](./docs/challenge-13/README.md)
 - Status: `Completed`
 - Submitted: `Yes`
 - Date: 2022-09-07
