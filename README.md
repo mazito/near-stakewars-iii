@@ -45,22 +45,18 @@ Nodes
 - Submitted: `Yes`
 - Date: 2022-09-07 (updated)
 
-**Challenge-10**: 
-- Docs: [Challenge 09: Proof of completion](./docs/challenge-10/index.md)
+**Challenge-10**: This challenge automatically delegates ShardNet NEAR to pools with uptime >= 60%
 - Status: `Completed`
-- Submitted: `Yes`
-- Date: 2022-08-21
+- Submitted: `N/A`
 
 **Challenge-11**: 
-- Docs: [Challenge 0: Proof of completion](./docs/challenge-11/index.md)
-- Status: ``
-- Submitted: ``
-- Date: 2022-09-07
+- Status: `Not done`
+- Submitted: `No`
 
-**Challenge-13**: 
-- Docs: [Challenge 0: Proof of completion](./docs/challenge-0/index.md)
-- Status: ``
-- Submitted: ``
+**Challenge-13**:  Update their node, migrate keys, and set up a BACKUP node.
+- Docs: [Challenge 13: Proof of completion](./docs/challenge-11/README.md)
+- Status: `Completed`
+- Submitted: `Yes`
 - Date: 2022-09-07
 
 **Challenge-14**: 
