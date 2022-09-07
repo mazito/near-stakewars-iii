@@ -1,10 +1,13 @@
-# Challenge 09
+# NEAR StakeWars III - Challenge 09
 
-- Monitor uptime above 70% on ShardNet
+> Monitor uptime above 70% on ShardNet
 
-- Open the RPC port 3030 for analytics / reporting
+> Open the RPC port 3030 for analytics / reporting
 
 ## Uptime scoreboards:
+
+#### `Sept 07 2022` (after 153 epochs)
+- ![](./Selecci%C3%B3n_091.png)
 
 #### `Aug 21 2022` (after 61 epochs)
 - ![](./Selecci%C3%B3n_090.png)

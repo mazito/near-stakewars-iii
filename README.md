@@ -40,10 +40,10 @@ Nodes
 - Date: 2022-09-04
 
 **Challenge-09**: Challenge for shardnet uptime > 70% && open the debug port
-- Docs: [Challenge 09: Proof of completion](./docs/challenge-09/index.md)
+- Docs: [Challenge 09: Proof of completion](./docs/challenge-09/README.md)
 - Status: `Completed`
 - Submitted: `Yes`
-- Date: 2022-08-21
+- Date: 2022-09-07 (updated)
 
 **Challenge-10**: 
 - Docs: [Challenge 09: Proof of completion](./docs/challenge-10/index.md)
