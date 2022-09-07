@@ -33,5 +33,3 @@ echo "Upload to Wasabi completed" | ts >> $LOGF
 sudo systemctl start neard-failover
 echo "NEAR Failover node was started" | ts >> $LOGF
 ubuntu@idtcn3:~$ cat run/restore-near-data.sh 
-#!/bin/bash
-# Restore from latest backup 
