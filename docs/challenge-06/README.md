@@ -1,4 +1,4 @@
-# Challenge 06
+# NEAR StakeWars III - Challenge 06
 
 > Create a cron task on the machine running node validator that allows ping to network automatically.
 

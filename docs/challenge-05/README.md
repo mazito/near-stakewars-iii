@@ -4,7 +4,7 @@
 - Challenge: **05**
 - Autor: Mario A. Zito (mazito.shardnet.near) 
 - Fecha: 10-Ago-2022
-- Nodos: `idtcn2` (corriendo), `idtcn1` (suspendido) y `maz0` (corriendo).
+- Nodos: `idtcn2` (corriendo), `idtcn1`, `idtcn0`y `maz0` (suspendidos).
 
 ### Preliminares
 
