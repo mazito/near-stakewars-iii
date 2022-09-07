@@ -79,10 +79,16 @@ Nodes
 - Status: `Not done`
 - Submitted: `No`
 
+**Challenge-18**: Make video tutorials about NEAR stake war and publish your video to the Internet
+- Docs: [Challenge 18: Proof of completion](./docs/challenge-18/README.md)
+- Status: `Completed`
+- Submitted: `Yes`
+- Date: 2022-09-07
+
 **Challenge-19**: Create Grafana dashboards
 - Docs: [Challenge 19: Proof of completion](./docs/challenge-19/README.md)
 - Status: `Completed`
-- Submitted: ``
+- Submitted: `Yes`
 - Date: 2022-09-05
 
 **Challenge-community-01**: 
@@ -91,8 +97,3 @@ Nodes
 - Submitted: `No`
 - Date: 2022-09-07
 
-**Challenge-community-02**: 
-- Docs: [Challenge 0: Proof of completion](./docs/challenge-comm02/index.md)
-- Status: `WIP`
-- Submitted: `Not yet`
-- Date: 2022-09-07
