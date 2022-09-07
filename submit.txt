@@ -11,3 +11,5 @@ mariozito.near
 Argentina
 
 mazito.v2@gmail.com
+
+ed25519:68n1XeeYKVG7mzh53pypB3EP8SwjBeKDRjFRb6bcCvk7

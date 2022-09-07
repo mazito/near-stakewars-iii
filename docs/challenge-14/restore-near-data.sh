@@ -27,5 +27,3 @@ echo "Restore completed" | ts >> $LOGF
 # We can now restart the failover node
 sudo systemctl start neard-failover
 echo "NEAR Failover node was started" | ts >> $LOGF
-
-
