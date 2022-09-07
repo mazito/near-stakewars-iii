@@ -73,7 +73,7 @@ Nodes
 - Docs: [Challenge 16: Proof of completion](./docs/challenge-16/README.md)
 - Status: `Completed`
 - Submitted: `Yes`
-- Date: 2022-09-07
+- Date: 2022-09-06
 
 **Challenge-17**: Testnet Validator on Decentralized Cloud Service
 - Status: `Not done`
@@ -83,28 +83,16 @@ Nodes
 - Docs: [Challenge 19: Proof of completion](./docs/challenge-19/README.md)
 - Status: `Completed`
 - Submitted: ``
-- Date: 2022-09-07
-
-## Drafts
----
-
-
-
-**Challenge-20**: 
-- Docs: [Challenge 0: Proof of completion](./docs/challenge-0/index.md)
-- Status: ``
-- Submitted: ``
-- Date: 2022-09-07
+- Date: 2022-09-05
 
 **Challenge-community-01**: 
 - Docs: [Challenge 0: Proof of completion](./docs/challenge-comm01/index.md)
-- Status: ``
-- Submitted: ``
+- Status: `Not done`
+- Submitted: `No`
 - Date: 2022-09-07
 
 **Challenge-community-02**: 
 - Docs: [Challenge 0: Proof of completion](./docs/challenge-comm02/index.md)
-- Status: ``
-- Submitted: ``
+- Status: `WIP`
+- Submitted: `Not yet`
 - Date: 2022-09-07
-
