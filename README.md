@@ -49,7 +49,7 @@ Nodes
 - Status: `Completed`
 - Submitted: `N/A`
 
-**Challenge-11**: 
+**Challenge-11**: Propose an improved staking farm solution.
 - Status: `Not done`
 - Submitted: `No`
 
@@ -91,9 +91,6 @@ Nodes
 - Submitted: `Yes`
 - Date: 2022-09-05
 
-**Challenge-community-01**: 
-- Docs: [Challenge 0: Proof of completion](./docs/challenge-comm01/index.md)
+**Challenge-community-01**: Get your chunk-producer node online, support the Latin American projects and communities of NEAR.
 - Status: `Not done`
 - Submitted: `No`
-- Date: 2022-09-07
-
